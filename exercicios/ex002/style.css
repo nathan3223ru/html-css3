@@ -1,0 +1,24 @@
+@charset "UTF-8"
+ font-family:arial, helvetica, sans-serif;
+
+
+ body{
+    background-color: burlywood;
+ }
+
+ main{
+    background-color: aliceblue;
+    border-radius: 5%;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px white
+ }
+ h1{
+    text-align: center;
+    text-shadow: 1px 1px 0px rgb(221, 150, 19);
+ }
+
+ p{
+    text-align: justify;
+ }
