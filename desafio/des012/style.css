@@ -49,18 +49,36 @@
     font-size: 3vh;
 
  }
+ section > p{
+   padding-bottom: 2em;
+ }
  section.normal{
     background-color: white;
     color: black;
  }
  section.imagem{
-    background-color: dimgray;
+    background-color: rgba(105, 105, 105, 0);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.215);
+    background-attachment: fixed;
+    background-size: cover;
  }
  section.imagem > p{
-    background-color: rgb(70, 67, 67);
+    background-color: rgba(70, 67, 67, 0.163);
    display: inline-block;
    padding: 5px;
+   text-shadow: 1px 1px 0px black;
+ }
+ section#img01{
+      background-image: url(../des012/imagens/abu.jpg);
+      background-position:  center;
+      background-size: cover;
+ }
+ section#img02{
+      background-image: url(imagens/xadodo.webp);
+      background-size: cover;
+      background-position: center;
+      
  }
  footer{
     background-color: black;
