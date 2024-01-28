@@ -13,8 +13,14 @@
         }
         table{
             width: 500px;
+            height: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
+            text-align: center;
+        }
+        thead > tr:nth-child(2n){
+            background-color: blue;
         }
         td.xadodo{
             padding: 10px;
@@ -41,6 +47,7 @@
    <h1>uso de tabelas grandes</h1> 
 
    <table>
+    <caption>população das unidades federativas</caption>
     <thead>
     <tr>
         <th>estado</th>
